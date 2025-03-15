@@ -11,3 +11,7 @@ for i in range(10):
         unique_list.append(number)
     else:
         duplicate_list.append(number)
+
+for i in unique_list:
+	if i in duplicate_list:
+		with_duplicate_list.append(i)
