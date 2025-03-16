@@ -1,3 +1,10 @@
 print("Input a non-number to display the average of the numbers")
 
 number_list = []
+
+while True:
+    try:
+        number = int(input("Input a number: "))
+        list.append(number)
+    except ValueError:
+        break
