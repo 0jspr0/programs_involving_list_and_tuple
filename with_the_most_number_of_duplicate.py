@@ -21,3 +21,6 @@ if number_list:
             
             if i not in with_the_most_number_of_duplicate_list:
             	with_the_most_number_of_duplicate_list.append(i)
+
+for i in with_the_most_number_of_duplicate_list:
+	print(i)
