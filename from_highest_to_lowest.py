@@ -10,6 +10,7 @@ while True:
         break
 
 number_list.sort()
+number_list = reversed(number_list)
 
 for i in number_list:
     print(i)
