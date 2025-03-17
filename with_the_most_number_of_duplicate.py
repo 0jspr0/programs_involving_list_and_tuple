@@ -9,3 +9,7 @@ while True:
         list.append(number)
     except ValueError:
         break
+
+if number_list:
+    with_the_most_number_of_duplicate = number_list[0]
+    max_count = 0
