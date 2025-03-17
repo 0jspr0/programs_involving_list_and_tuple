@@ -7,4 +7,6 @@ while True:
         number = int(input("Input a number: "))
         list.append(number)
     except ValueError:
+        if number_list:
+            print(max(number_list))
         break
