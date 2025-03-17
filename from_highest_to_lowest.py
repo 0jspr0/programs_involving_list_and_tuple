@@ -10,3 +10,6 @@ while True:
         break
 
 number_list.sort()
+
+for i in number_list:
+    print(i)
