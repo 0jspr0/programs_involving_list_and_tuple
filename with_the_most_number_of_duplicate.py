@@ -18,3 +18,6 @@ if number_list:
         
         if count >= max_count:
             max_count = count
+            
+            if i not in with_the_most_number_of_duplicate_list:
+            	with_the_most_number_of_duplicate_list.append(i)
