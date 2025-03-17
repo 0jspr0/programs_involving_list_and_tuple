@@ -15,3 +15,6 @@ for i in range(10):
 for i in unique_list:
 	if i in duplicate_list:
 		with_duplicate_list.append(i)
+
+for i in with_duplicate_list:
+	print(i)
