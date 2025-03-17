@@ -8,3 +8,5 @@ while True:
         list.append(number)
     except ValueError:
         break
+
+number_list.sort()
