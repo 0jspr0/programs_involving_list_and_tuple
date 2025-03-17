@@ -11,5 +11,7 @@ while True:
         break
 
 if number_list:
-    with_the_most_number_of_duplicate = number_list[0]
     max_count = 0
+    
+    for i in number_list:
+        count = number_list.count(i)
