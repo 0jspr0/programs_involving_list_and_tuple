@@ -8,3 +8,7 @@ while True:
         list.append(number)
     except ValueError:
         break
+
+if number_list:
+    average = sum(number_list) / len(number_list)
+    print(average)
