@@ -6,7 +6,7 @@ with_the_most_number_of_duplicate_list = []
 while True:
     try:
         number = int(input("Input a number: "))
-        list.append(number)
+        number_list.append(number)
     except ValueError:
         break
 

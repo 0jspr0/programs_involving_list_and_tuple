@@ -5,7 +5,7 @@ number_list = []
 while True:
     try:
         number = int(input("Input a number: "))
-        list.append(number)
+        number_list.append(number)
     except ValueError:
         if number_list:
             print(max(number_list))
